@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" href="Style.Css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.min.js"></script>
+    <script src="App.js"></script>
+    <style src= Style.Css></style>
+    <title>Drum Sequencer</title>
+</head>
+
+<script>
+
+</script>
+
+<body>
+    <h1>Drum Sequencer</h1>
+
+    <div class="container">
+        <div class="input-group input-group-sm mb-3 col-4">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">BPM</span>
+            </div>
+            <input type="text" id="bpmId" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            <button onclick="set_bpm()"> 
+                Set BPM
+            </button> 
+            <button onclick="stop_seq()"> 
+                Stop
+            </button> 
+            <button onclick="start_seq()"> 
+                Play
+            </button>     
+        </div>
+        <div class="drums">
+            <div class="row">
+                <div class="col-2">
+                    <h2 style="text-align: center">Kick</h2>
+                </div>
+                <div class="col-10">
+                    <div class="kick">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">  
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">  
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-2">
+                    <h2  style="text-align: center">Snare</h2>
+                </div>
+                <div class="col-10">
+                    <div class="snare">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">  
+                        <input type="checkbox">
+                        <input type="checkbox"> |
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">  
+                        <input type="checkbox">
+                        <input type="checkbox"> |  
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-2">
+                    <h2 style="text-align: center">Hat</h2>
+                </div>
+                <div class="col-10">
+                    <div class="Hat">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">  
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                        <input type="checkbox">
+                        <input type="checkbox">  
+                        <input type="checkbox">
+                        <input type="checkbox"> | 
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</body>
+
+</html>
