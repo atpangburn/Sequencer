@@ -2,11 +2,11 @@
 input[type="checkbox"]{
    -webkit-appearance: initial;
    appearance: initial;
-   background: grey;
+   background::rgb(175, 174, 174);
    width: 10px;
    height: 12px;
    border: none;
-   background:grey;
+   background:rgb(175, 174, 174);
    position: relative;
 }
 input[type="checkbox"]:checked {
